@@ -15,3 +15,7 @@ phases:
   post_build:
     commands:
       - aws s3 sync ./build s3://$S3_BUCKET 
+artifacts:
+  files:
+    - 'build/*'
+  name: reactjs-$(date +%Y-%m-%d) 
