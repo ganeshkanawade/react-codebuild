@@ -18,4 +18,4 @@ phases:
 artifacts:
   files:
     - 'build/*'
-  name: reactjs-$(date +%Y-%m-%d) 
+  name: reactdemo-$(date +%Y-%m-%d) 
