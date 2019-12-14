@@ -1,4 +1,5 @@
 import React from 'react';
+import dotenv from 'dotenv';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,7 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> We are using {process.env.REACT_APP_ENVIRONMENT}
       </header>
     </div>
   );
