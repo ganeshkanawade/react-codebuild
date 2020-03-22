@@ -18,7 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a> We are using {process.env.REACT_APP_ENVIRONMENT}
+        </a> We are using {process.env.REACT_APP_ENVIRONMENT} environment
       </header>
     </div>
   );
